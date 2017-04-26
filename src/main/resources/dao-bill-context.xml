@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="bill-context.xml"/>
+    <bean id="dao_bill" class="LNk.oop.dao.bill.impls.DaoBillImpl">
+        <constructor-arg>
+            <list>
+                <ref bean="check_1" />
+                <ref bean="check_2" />
+                <ref bean="check_3" />
+                <ref bean="check_4" />
+                <ref bean="check_5" />
+                <ref bean="check_6" />
+                <ref bean="check_7" />
+                <ref bean="check_8" />
+                <ref bean="check_9" />
+                <ref bean="check_10"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

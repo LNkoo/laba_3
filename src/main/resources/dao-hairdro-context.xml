@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="hairdro-context.xml" />
+
+    <bean id="dao_hair" class="LNk.oop.dao.hairdro.impls.DaoHairdroImpl">
+    <constructor-arg>
+        <list>
+            <ref bean="hair_01"/>
+            <ref bean="hair_02"/>
+            <ref bean="hair_03"/>
+            <ref bean="hair_04"/>
+            <ref bean="hair_05"/>
+            <ref bean="hair_06"/>
+            <ref bean="hair_07"/>
+            <ref bean="hair_08"/>
+            <ref bean="hair_09"/>
+            <ref bean="hair_10"/>
+        </list>
+
+    </constructor-arg>
+    </bean>
+
+</beans>

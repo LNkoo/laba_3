@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="work-context.xml"/>
+
+    <bean id="dao_work" class="LNk.oop.dao.work.impls.DaoWorkImpl">
+        <constructor-arg>
+            <list>
+                <ref bean="work_01"/>
+                <ref bean="work_02"/>
+                <ref bean="work_03"/>
+                <ref bean="work_04"/>
+                <ref bean="work_05"/>
+                <ref bean="work_06"/>
+                <ref bean="work_07"/>
+                <ref bean="work_08"/>
+                <ref bean="work_09"/>
+                <ref bean="work_10"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="client_01" class="LNk.oop.model.client.Client">
+        <property name="id" value="1"/>
+        <property name="name" value="Olga"/>
+        <property name="status" value="2"/>
+        <property name="code" value="100"/>
+    </bean>
+
+    <bean id="client_02" class="LNk.oop.model.client.Client">
+        <property name="id" value="2"/>
+        <property name="name" value="Svitlana"/>
+        <property name="status" value="2"/>
+        <property name="code" value="200"/>
+    </bean>
+
+    <bean id="client_03" class="LNk.oop.model.client.Client">
+        <property name="id" value="3"/>
+        <property name="name" value="Kolia"/>
+        <property name="status" value="2"/>
+        <property name="code" value="300"/>
+    </bean>
+
+    <bean id="client_04" class="LNk.oop.model.client.Client">
+        <property name="id" value="4"/>
+        <property name="name" value="Orest"/>
+        <property name="status" value="2"/>
+        <property name="code" value="400"/>
+    </bean>
+
+    <bean id="client_05" class="LNk.oop.model.client.Client">
+        <property name="id" value="5"/>
+        <property name="name" value="Vania"/>
+        <property name="status" value="2"/>
+        <property name="code" value="500"/>
+    </bean>
+
+    <bean id="client_06" class="LNk.oop.model.client.Client">
+        <property name="id" value="6"/>
+        <property name="name" value="Alla"/>
+        <property name="status" value="2"/>
+        <property name="code" value="600"/>
+    </bean>
+
+    <bean id="client_07" class="LNk.oop.model.client.Client">
+        <property name="id" value="7"/>
+        <property name="name" value="Anna"/>
+        <property name="status" value="2"/>
+        <property name="code" value="700"/>
+    </bean>
+
+    <bean id="client_08" class="LNk.oop.model.client.Client">
+        <property name="id" value="8"/>
+        <property name="name" value="Victor"/>
+        <property name="status" value="2"/>
+        <property name="code" value="800"/>
+    </bean>
+
+    <bean id="client_09" class="LNk.oop.model.client.Client">
+        <property name="id" value="9"/>
+        <property name="name" value="Iren"/>
+        <property name="status" value="2"/>
+        <property name="code" value="900"/>
+    </bean>
+
+    <bean id="client_10" class="LNk.oop.model.client.Client">
+        <property name="id" value="10"/>
+        <property name="name" value="Oleg"/>
+        <property name="status" value="2"/>
+        <property name="code" value="1000"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="work_01" class="LNk.oop.model.work.Work">
+        <property name="id" value="1"/>
+        <property name="code" value="101"/>
+        <property name="date" value="21/01/2017"/>
+        <property name="name" value="Embalming hair"/>
+        <property name="price" value="100"/>
+    </bean>
+
+    <bean id="work_02" class="LNk.oop.model.work.Work">
+        <property name="id" value="2"/>
+        <property name="code" value="201"/>
+        <property name="date" value="21/02/2017"/>
+        <property name="name" value="Styling"/>
+        <property name="price" value="60"/>
+    </bean>
+
+    <bean id="work_03" class="LNk.oop.model.work.Work">
+        <property name="id" value="3"/>
+        <property name="code" value="301"/>
+        <property name="date" value="25/02/2017"/>
+        <property name="name" value="Short haircut"/>
+        <property name="price" value="40"/>
+    </bean>
+
+    <bean id="work_04" class="LNk.oop.model.work.Work">
+        <property name="id" value="4"/>
+        <property name="code" value="401"/>
+        <property name="date" value="16/01/2017"/>
+        <property name="name" value="Embalming hair"/>
+        <property name="price" value="90"/>
+    </bean>
+
+    <bean id="work_05" class="LNk.oop.model.work.Work">
+        <property name="id" value="5"/>
+        <property name="code" value="501"/>
+        <property name="date" value="19/01/2017"/>
+        <property name="name" value="Short haircut"/>
+        <property name="price" value="75"/>
+    </bean>
+
+    <bean id="work_06" class="LNk.oop.model.work.Work">
+        <property name="id" value="6"/>
+        <property name="code" value="601"/>
+        <property name="date" value="11/02/2017"/>
+        <property name="name" value="Waving of hair"/>
+        <property name="price" value="50"/>
+    </bean>
+
+    <bean id="work_07" class="LNk.oop.model.work.Work">
+        <property name="id" value="7"/>
+        <property name="code" value="701"/>
+        <property name="date" value="1/03/2017"/>
+        <property name="name" value="Embalming hair"/>
+        <property name="price" value="200"/>
+    </bean>
+
+    <bean id="work_08" class="LNk.oop.model.work.Work">
+        <property name="id" value="8"/>
+        <property name="code" value="801"/>
+        <property name="date" value="24/06/2017"/>
+        <property name="name" value="Short haircut"/>
+        <property name="price" value="45"/>
+    </bean>
+
+    <bean id="work_09" class="LNk.oop.model.work.Work">
+        <property name="id" value="9"/>
+        <property name="code" value="901"/>
+        <property name="date" value="06/09/2017"/>
+        <property name="name" value="Waving of hair"/>
+        <property name="price" value="70"/>
+    </bean>
+
+    <bean id="work_10" class="LNk.oop.model.work.Work">
+        <property name="id" value="10"/>
+        <property name="code" value="1001"/>
+        <property name="date" value="11/11/2017"/>
+        <property name="name" value="Styling"/>
+        <property name="price" value="120"/>
+    </bean>
+</beans>

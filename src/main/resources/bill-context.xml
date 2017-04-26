@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="client-context.xml"/>
+    <import resource="hairdro-context.xml"/>
+    <import resource="work-context.xml"/>
+
+
+    <bean id="check_1" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="1"/>
+        <property name="client" ref="client_01"/>
+        <property name="hairdro" ref="hair_01"/>
+        <property name="work" ref="work_01"/>
+    </bean>
+
+    <bean id="check_2" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="2"/>
+        <property name="client" ref="client_02"/>
+        <property name="hairdro" ref="hair_02"/>
+        <property name="work" ref="work_02"/>
+    </bean>
+
+    <bean id="check_3" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="3"/>
+        <property name="client" ref="client_03"/>
+        <property name="hairdro" ref="hair_03"/>
+        <property name="work" ref="work_03"/>
+    </bean>
+
+    <bean id="check_4" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="4"/>
+        <property name="client" ref="client_04"/>
+        <property name="hairdro" ref="hair_04"/>
+        <property name="work" ref="work_04"/>
+    </bean>
+
+    <bean id="check_5" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="5"/>
+        <property name="client" ref="client_05"/>
+        <property name="hairdro" ref="hair_05"/>
+        <property name="work" ref="work_05"/>
+    </bean>
+
+    <bean id="check_6" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="6"/>
+        <property name="client" ref="client_06"/>
+        <property name="hairdro" ref="hair_06"/>
+        <property name="work" ref="work_06"/>
+    </bean>
+
+    <bean id="check_7" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="7"/>
+        <property name="client" ref="client_07"/>
+        <property name="hairdro" ref="hair_07"/>
+        <property name="work" ref="work_07"/>
+    </bean>
+
+    <bean id="check_8" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="8"/>
+        <property name="client" ref="client_08"/>
+        <property name="hairdro" ref="hair_08"/>
+        <property name="work" ref="work_08"/>
+    </bean>
+
+    <bean id="check_9" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="9"/>
+        <property name="client" ref="client_09"/>
+        <property name="hairdro" ref="hair_09"/>
+        <property name="work" ref="work_09"/>
+    </bean>
+
+    <bean id="check_10" class="LNk.oop.model.bill.Bill">
+        <property name="id" value="10"/>
+        <property name="client" ref="client_10"/>
+        <property name="hairdro" ref="hair_10"/>
+        <property name="work" ref="work_10"/>
+    </bean>
+</beans>

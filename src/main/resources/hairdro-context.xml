@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="hair_01" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="1"/>
+        <property name="name" value="Kare"/>
+        <property name="price" value="120"/>
+        <property name="washing" value="true"/>
+        <property name="draing" value="true"/>
+        <property name="fixing" value="true"/>
+    </bean>
+
+    <bean id="hair_02" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="2"/>
+        <property name="name" value="Shapochka"/>
+        <property name="price" value="70"/>
+        <property name="washing" value="false"/>
+        <property name="draing" value="false"/>
+        <property name="fixing" value="true"/>
+    </bean>
+
+    <bean id="hair_03" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="3"/>
+        <property name="name" value="Classic"/>
+        <property name="price" value="50"/>
+        <property name="washing" value="true"/>
+        <property name="draing" value="false"/>
+        <property name="fixing" value="false"/>
+    </bean>
+
+
+    <bean id="hair_04" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="4"/>
+        <property name="name" value="Kanadka"/>
+        <property name="price" value="180"/>
+        <property name="washing" value="true"/>
+        <property name="draing" value="true"/>
+        <property name="fixing" value="false"/>
+    </bean>
+
+    <bean id="hair_05" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="5"/>
+        <property name="name" value="Undercut "/>
+        <property name="price" value="220"/>
+        <property name="washing" value="true"/>
+        <property name="draing" value="true"/>
+        <property name="fixing" value="true"/>
+    </bean>
+
+    <bean id="hair_06" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="6"/>
+        <property name="name" value="Caprise"/>
+        <property name="price" value="40"/>
+        <property name="washing" value="false"/>
+        <property name="draing" value="false"/>
+        <property name="fixing" value="false"/>
+    </bean>
+
+    <bean id="hair_07" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="7"/>
+        <property name="name" value="Avrora"/>
+        <property name="price" value="540"/>
+        <property name="washing" value="true"/>
+        <property name="draing" value="true"/>
+        <property name="fixing" value="true"/>
+    </bean>
+
+    <bean id="hair_08" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="8"/>
+        <property name="name" value="Elvice"/>
+        <property name="price" value="150"/>
+        <property name="washing" value="true"/>
+        <property name="draing" value="true"/>
+        <property name="fixing" value="true"/>
+    </bean>
+
+    <bean id="hair_09" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="9"/>
+        <property name="name" value="Ijachok"/>
+        <property name="price" value="100"/>
+        <property name="washing" value="true"/>
+        <property name="draing" value="true"/>
+        <property name="fixing" value="false"/>
+    </bean>
+
+    <bean id="hair_10" class="LNk.oop.model.hairdro.Hairdro">
+        <property name="id" value="10"/>
+        <property name="name" value="Vojag"/>
+        <property name="price" value="230"/>
+        <property name="washing" value="true"/>
+        <property name="draing" value="true"/>
+        <property name="fixing" value="true"/>
+    </bean>
+
+</beans>
